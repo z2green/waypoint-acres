@@ -31,7 +31,7 @@
     --light: #888;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; font-size: 17px; }
   body {
     font-family: 'DM Sans', sans-serif;
     background: var(--cream);
@@ -71,7 +71,7 @@
   }
   .hero-eyebrow {
     font-family: 'DM Sans', sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -84,7 +84,7 @@
   }
   .hero h1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(3rem, 7vw, 6.5rem);
+    font-size: clamp(3rem, 7vw, 6rem);
     font-weight: 300;
     color: #fff;
     line-height: 1.05;
@@ -100,7 +100,7 @@
   }
   .hero-sub {
     font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     color: rgba(255,255,255,0.68);
     margin-top: 24px;
@@ -139,7 +139,7 @@
     line-height: 1;
   }
   .hero-stat-label {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 400;
     color: rgba(255,255,255,0.5);
     letter-spacing: 2px;
@@ -159,7 +159,7 @@
     background: var(--gold);
     color: var(--forest);
     font-family: 'DM Sans', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -197,7 +197,7 @@
   section { padding: 100px 32px; }
   .container { max-width: 1060px; margin: 0 auto; }
   .section-label {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -206,7 +206,7 @@
   }
   .section-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
     font-weight: 400;
     color: var(--forest);
     line-height: 1.15;
@@ -214,8 +214,8 @@
   }
   .section-title em { font-style: italic; }
   .section-body {
-    font-size: 15.5px;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 1.65;
     color: var(--mid);
     max-width: 660px;
   }
@@ -248,12 +248,12 @@
   }
   .feature-text h4 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--forest);
     margin-bottom: 4px;
   }
-  .feature-text p { font-size: 14px; color: var(--mid); line-height: 1.6; }
+  .feature-text p { font-size: 16px; color: var(--mid); line-height: 1.6; }
   .about-visual {
     background: linear-gradient(135deg, var(--forest) 0%, #0d2206 100%);
     padding: 52px 44px;
@@ -278,7 +278,7 @@
     font-weight: 500;
     color: var(--gold-light);
   }
-  .about-stat-desc { font-size: 12px; color: rgba(255,255,255,0.5); margin-top: 4px; line-height: 1.4; }
+  .about-stat-desc { font-size: 14px; color: rgba(255,255,255,0.5); margin-top: 4px; line-height: 1.4; }
 
   /* TIERS */
   .tiers { background: var(--cream); }
@@ -339,15 +339,15 @@
     font-weight: 500;
     color: var(--gold-light);
   }
-  .tier-price-label { font-size: 13px; color: rgba(255,255,255,0.5); }
+  .tier-price-label { font-size: 15px; color: rgba(255,255,255,0.5); }
   .tier-body { padding: 36px 40px; background: #fff; }
   .tier-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
+    padding: 13px 0;
     border-bottom: 1px solid #f0ede8;
-    font-size: 14px;
+    font-size: 16px;
   }
   .tier-row:last-child { border-bottom: none; }
   .tier-row-label { color: var(--mid); }
@@ -364,7 +364,7 @@
     font-weight: 500;
     color: var(--forest);
   }
-  .tier-roi-label { font-size: 12px; color: var(--mid); margin-top: 2px; }
+  .tier-roi-label { font-size: 14px; color: var(--mid); margin-top: 2px; }
   .tier-amenities {
     margin-top: 24px;
   }
@@ -395,7 +395,7 @@
   }
   .roi-tab {
     padding: 14px 32px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     color: rgba(255,255,255,0.4);
     cursor: pointer;
@@ -406,12 +406,12 @@
   }
   .roi-tab.active { color: var(--gold); border-bottom-color: var(--gold); }
   .roi-table-wrap { margin-top: 32px; overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table { width: 100%; border-collapse: collapse; font-size: 16px; }
   thead th {
     background: rgba(255,255,255,0.06);
     color: rgba(255,255,255,0.5);
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 14px 16px;
@@ -424,7 +424,7 @@
     text-align: right;
     color: rgba(255,255,255,0.7);
   }
-  tbody td:first-child { text-align: left; color: rgba(255,255,255,0.5); font-size: 12px; }
+  tbody td:first-child { text-align: left; color: rgba(255,255,255,0.5); font-size: 14px; }
   .roi-highlight { color: var(--gold-light) !important; font-weight: 500 !important; }
   tfoot tr { border-top: 1px solid rgba(201,168,76,0.4); }
   tfoot td {
@@ -432,12 +432,12 @@
     text-align: right;
     color: var(--gold-light);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
   }
   tfoot td:first-child { text-align: left; }
   .roi-note {
     margin-top: 28px;
-    font-size: 12px;
+    font-size: 15px;
     color: rgba(255,255,255,0.3);
     line-height: 1.7;
     font-style: italic;
@@ -468,8 +468,8 @@
     line-height: 1;
     min-width: 32px;
   }
-  .lounger-text h4 { font-size: 15px; font-weight: 500; color: var(--forest); margin-bottom: 4px; }
-  .lounger-text p { font-size: 13.5px; color: var(--mid); line-height: 1.6; }
+  .lounger-text h4 { font-size: 17px; font-weight: 500; color: var(--forest); margin-bottom: 4px; }
+  .lounger-text p { font-size: 16px; color: var(--mid); line-height: 1.6; }
   .lounger-quote {
     background: var(--forest);
     padding: 48px 44px;
@@ -486,7 +486,7 @@
   }
   .lounger-quote p {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.35rem;
+    font-size: 1.45rem;
     font-weight: 300;
     font-style: italic;
     color: rgba(255,255,255,0.85);
@@ -519,12 +519,12 @@
   .structure-block-icon { font-size: 24px; margin-bottom: 16px; }
   .structure-block h4 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--forest);
     margin-bottom: 8px;
   }
-  .structure-block p { font-size: 13.5px; color: var(--mid); line-height: 1.65; }
+  .structure-block p { font-size: 16px; color: var(--mid); line-height: 1.65; }
   .structure-block.accent { background: var(--forest); }
   .structure-block.accent h4 { color: var(--gold-light); }
   .structure-block.accent p { color: rgba(255,255,255,0.55); }
@@ -536,7 +536,7 @@
   .ptable th {
     background: var(--forest);
     color: rgba(255,255,255,0.6);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -546,7 +546,7 @@
   .ptable th:first-child { text-align: left; }
   .ptable td {
     padding: 16px 20px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: right;
     color: var(--charcoal);
     border-bottom: 1px solid rgba(0,0,0,0.06);
@@ -594,9 +594,9 @@
     color: var(--gold-light);
     font-weight: 500;
   }
-  .cta-detail-label { font-size: 11px; color: rgba(255,255,255,0.35); letter-spacing: 2px; text-transform: uppercase; margin-top: 4px; }
+  .cta-detail-label { font-size: 13px; color: rgba(255,255,255,0.35); letter-spacing: 2px; text-transform: uppercase; margin-top: 4px; }
   .cta-warning {
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(255,255,255,0.25);
     max-width: 500px;
     margin: 32px auto 0;
@@ -975,7 +975,7 @@
         <h4>Shared Infrastructure</h4>
         <p>Geothermal, solar, and septic systems are funded collectively through pre-sale investments — meaning investor capital builds the infrastructure that generates their returns. Luxury off-grid living at a fraction of what any individual would pay to build independently.</p>
       </div>
-      <div class="structure-block">
+      <div class="structure-block accent">
         <div class="structure-block-icon">🔧</div>
         <h4>Operator Covers All</h4>
         <p>Bookings, maintenance, cleaning, marketing, insurance, compliance. Not one phone call to you — ever.</p>
